@@ -36,3 +36,13 @@ exports.deleteAll = (req, res) => {
 exports.findAllPublished = (req, res) => {
 
 };
+
+// exports.create = (req, res) => {
+//     // Validate request
+//     if (!req.body.title) {
+//       res.status(400).send({
+//         message: "Content can not be empty!"
+//       });
+//       return;
+//     }
+  

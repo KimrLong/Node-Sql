@@ -20,7 +20,7 @@ const db = {};
 
 db.Sequelize = Sequelize;
 db.sequelize = sequelize;
-
+//sequelize is mapping between objects in relational database
 sequelize.authenticate().then(() => {
     console.log('Connection to database has been established successfully.');
 }).catch(err => {
